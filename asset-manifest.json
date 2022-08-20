@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/finfolink-v1/static/css/main.4628c3cf.css",
+    "main.js": "/finfolink-v1/static/js/main.c2be8834.js",
+    "static/js/703.f5385379.chunk.js": "/finfolink-v1/static/js/703.f5385379.chunk.js",
+    "static/js/13.923178b9.chunk.js": "/finfolink-v1/static/js/13.923178b9.chunk.js",
+    "static/media/aboutimg1.jpeg": "/finfolink-v1/static/media/aboutimg1.ceb56b1e6b2582cdec9e.jpeg",
+    "static/media/comingapp.png": "/finfolink-v1/static/media/comingapp.af7ba13ecf5d530e3efa.png",
+    "static/media/musharakahimg.jpeg": "/finfolink-v1/static/media/musharakahimg.8060912fe778a2e730cf.jpeg",
+    "static/media/heromockup.png": "/finfolink-v1/static/media/heromockup.d7aaaf661c8bf5aba480.png",
+    "static/media/qardimg.jpeg": "/finfolink-v1/static/media/qardimg.3d63d3d6395bee4981c0.jpeg",
+    "static/media/murabahaimg.jpeg": "/finfolink-v1/static/media/murabahaimg.62a54415b9efd113cb50.jpeg",
+    "static/media/comingbg.png": "/finfolink-v1/static/media/comingbg.ef319a5406abb94260b4.png",
+    "static/media/herobg.jpeg": "/finfolink-v1/static/media/herobg.d685a11fd0b3854b6bf0.jpeg",
+    "static/media/aboutimg2.png": "/finfolink-v1/static/media/aboutimg2.b8c825609be16296f90c.png",
+    "static/media/watermark.png": "/finfolink-v1/static/media/watermark.dba18a83c9a0b890f46a.png",
+    "static/media/formbg.png": "/finfolink-v1/static/media/formbg.064225d0d4c90ae94cc5.png",
+    "static/media/googleplay.jpeg": "/finfolink-v1/static/media/googleplay.382384385eeb7f472f41.jpeg",
+    "index.html": "/finfolink-v1/index.html",
+    "main.4628c3cf.css.map": "/finfolink-v1/static/css/main.4628c3cf.css.map",
+    "main.c2be8834.js.map": "/finfolink-v1/static/js/main.c2be8834.js.map",
+    "703.f5385379.chunk.js.map": "/finfolink-v1/static/js/703.f5385379.chunk.js.map",
+    "13.923178b9.chunk.js.map": "/finfolink-v1/static/js/13.923178b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4628c3cf.css",
+    "static/js/main.c2be8834.js"
+  ]
+}
