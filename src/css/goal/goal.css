@@ -1,0 +1,45 @@
+.goal-container {
+  margin-top: 5rem;
+}
+
+.finfolink-goal-img-1 {
+  width: 25rem;
+
+  border-radius: 1rem 5rem;
+}
+
+.finfolink-goal-img-2 {
+  width: 40rem;
+}
+
+.goal-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.goal-flex div:nth-of-type(1) {
+  margin-right: 1.5rem;
+}
+
+.goal-flex div:nth-of-type(2) {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .goal-flex {
+    display: block;
+  }
+
+  .goal-flex div:nth-of-type(2) {
+    width: 100%;
+  }
+
+  .finfolink-goal-img-1 {
+    width: 20rem;
+  }
+
+  .finfolink-goal-img-2 {
+    width: 22rem;
+  }
+}

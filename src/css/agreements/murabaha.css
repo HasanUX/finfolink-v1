@@ -1,0 +1,86 @@
+/*murabaha header */
+
+.mrbaha-header {
+  /*padding-top: 4rem;*/
+}
+
+.mrbaha-cover-bg {
+  background-image: url(../../img/formbg.png);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25vh;
+}
+
+.mrbaha-title h1 {
+  padding-top: 2rem;
+}
+
+li {
+  line-height: 35px;
+}
+
+.mrbaha-date-sub {
+  position: relative;
+}
+
+.mrbaha-date-sub input {
+  position: absolute;
+  right: 5rem;
+  top: 0rem;
+  width: auto;
+}
+
+.mrbaha-watermark-container {
+  background-image: url(../../img/watermark.png);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: auto;
+  z-index: -1;
+  width: 100%;
+}
+
+.mrbaha-signature .first-party,
+.mrbaha-signature .second-party,
+.mrbaha-signature .guarantor {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+/*.mrbaha-signature .guarantor {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}*/
+
+/*agreement copyright*/
+
+.ag-cp-content {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.ag-cp-content h3 {
+  color: #015b69;
+}
+
+.logo-icon {
+  margin-right: 15px;
+  width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .mrbaha-date-sub {
+    padding-top: 3rem;
+  }
+
+  .mrbaha-date-sub input {
+    right: 0rem;
+  }
+}

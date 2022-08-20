@@ -1,0 +1,72 @@
+.coming-bg-img {
+  /*background-image: url(../../img/comingbg.png);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  z-index: -1;
+  height: 80vh;
+  width: 100%;
+}
+
+.coming-container {
+  /*position: relative;*/
+}
+
+.coming-row {
+  position: relative;
+}
+
+.coming-app {
+  position: absolute;
+  /*top: 2rem;*/
+  right: 5rem;
+  z-index: 2;
+  width: 65rem;
+}
+
+.google-play {
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  /*right: -10rem;*/
+}
+
+.google-play h3 {
+  margin-left: 5rem;
+}
+
+.google-play img {
+  width: 210px;
+  border-radius: 9px;
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .coming-bg-img {
+    height: auto;
+  }
+
+  .coming-app {
+    position: absolute;
+    top: 9rem;
+    right: 0rem;
+    z-index: 2;
+    width: 32rem;
+  }
+
+  .google-play {
+    position: absolute;
+    top: 27rem;
+    left: 11rem;
+  }
+
+  .google-play h3 {
+    font-size: 22px;
+  }
+
+  .google-play img {
+    width: 169px;
+  }
+}
