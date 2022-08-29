@@ -1,3 +1,11 @@
+/*lang-dropdown */
+
+.lang-dropdown {
+  position: absolute;
+  top: 5.5rem;
+  right: 2rem;
+}
+
 /*murabaha header */
 
 .mrbaha-header {
@@ -19,7 +27,7 @@
 }
 
 li {
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .mrbaha-date-sub {
@@ -46,10 +54,11 @@ li {
 .mrbaha-signature .first-party,
 .mrbaha-signature .second-party,
 .mrbaha-signature .guarantor {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 1rem;
+  /*display: flex;*/
+  /*flex-direction: row;
+  justify-content: space-between;*/
+  /*align-items: flex-end;*/
+  /*margin-bottom: 1rem;*/
 }
 
 /*.mrbaha-signature .guarantor {

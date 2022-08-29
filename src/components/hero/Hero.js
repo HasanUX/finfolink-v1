@@ -19,7 +19,7 @@ function Hero() {
 
         <div className="hero-btn-div">
           <Link to="/murabaha" className="btn-regular">
-            USE AGREEMENT TEMPLATE
+            CREATE AN AGREEMENT
           </Link>
           <a
             href="https://youtu.be/ftQjbDlqRNM"

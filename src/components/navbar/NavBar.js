@@ -23,12 +23,15 @@ function NavBar() {
               <span className="text-dark nav-link">Home</span>
             </Link>
             <Link to="/goal">
-              <span className="text-dark nav-link">Our goal </span>
+              <span className="text-dark nav-link">About us </span>
             </Link>
             <Link to="/contact">
+              <span className="text-dark nav-link">Contact us </span>
+            </Link>
+            {/*<a href="https://mail.google.com/mail/#compose" target="__blank">
               {" "}
               <span className="text-dark nav-link">Contact us</span>
-            </Link>
+            </a>*/}
             {/*<NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -45,7 +48,7 @@ function NavBar() {
             <Nav.Link
               href="https://facebook.com/finfolink"
               target="__blank"
-              className="btn-regular"
+              className="btn-regular-outline"
             >
               Connect @fb
             </Nav.Link>

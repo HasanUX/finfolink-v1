@@ -50,7 +50,7 @@
 
   .coming-app {
     position: absolute;
-    top: 9rem;
+    top: 7rem;
     right: 0rem;
     z-index: 2;
     width: 32rem;
@@ -58,7 +58,7 @@
 
   .google-play {
     position: absolute;
-    top: 27rem;
+    top: 1rem;
     left: 11rem;
   }
 

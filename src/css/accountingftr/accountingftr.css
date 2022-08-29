@@ -1,34 +1,34 @@
-.benefit-container {
+.accountingftr-container {
   padding: 3.5rem 0 6rem 0;
 }
 
-.benefit-title {
+.accountingftr-title {
   line-height: 42px;
   letter-spacing: 0.5px;
   color: #f98648;
 }
 
-.benefit-row {
+.accountingftr-row {
   background-color: #024751;
   border-radius: 9px;
   padding: 3rem;
 }
 
-.benefit-list {
+.accountingftr-list {
   list-style-type: none;
 }
 
-.benefit-list li h4 {
+.accountingftr-list li h4 {
   color: #f7f7f7;
   margin-bottom: 1.5rem;
   font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {
-  .benefit-container {
+  .accountingftr-container {
     padding: 3rem 0 6rem 0;
   }
-  .benefit-row {
+  .accountingftr-row {
     padding: 1rem;
     margin: 0.3rem;
   }

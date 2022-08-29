@@ -7,11 +7,12 @@ import Templates from "./components/templates/Templates";
 import Coming from "./components/coming/Coming";
 import Footer from "./components/footer/Footer";
 import MurabahaForm from "./components/agreements/murabaha/MurabahaForm";
-import AgreementCopyright from "./components/agreements/AgreementCopyright";
 import HeroMock from "./components/hero/HeroMock";
 import Benefits from "./components/benefits/Benefits";
 import Goal from "./components/goal/Goal";
 import MurabahaPDF from "./components/agreements/pdf/MurabahaPDF";
+import Contact from "./components/contact/Contact";
+import AccountingFtr from "./components/accounting/AccountingFtr";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
                   <Hero />
                   <HeroMock />
                   <Templates />
+                  <AccountingFtr />
                   <Benefits />
                   <Coming />
                 </div>
@@ -71,6 +73,23 @@ function App() {
                 <div id="content-wrap">
                   <NavBar />
                   <Goal />
+                </div>
+                <Footer />
+              </div>
+            }
+          />
+        </Routes>
+
+        {/*Contact us */}
+        <Routes>
+          <Route
+            exact
+            path="/contact"
+            element={
+              <div id="page-container">
+                <div id="content-wrap">
+                  <NavBar />
+                  <Contact />
                 </div>
                 <Footer />
               </div>

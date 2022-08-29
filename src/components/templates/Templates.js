@@ -34,7 +34,7 @@ function Templates() {
   return (
     <Container className="templates-container">
       <div className="text-center mb-5">
-        <h2 className="section-title">Our Free Templates</h2>
+        <h2 className="section-title">Free Agreement Forms</h2>
         <p>Agreements backed by subject matter expert</p>
       </div>
       <Row xs={1} md={3} className="g-4">
